@@ -1,83 +1,144 @@
-
-body{background-image:url("bg.jpg");
-    background-size:100% 100%;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    color:aqua;
-    font-family:Arial, Helvetica, sans-serif;
+body {
+    background-image: url("bg.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 200%;
-    }
-    *{
+}
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     direction: rtl;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    }
-    #navbar{
-        
-    background-color:#142850 ;
-    background-attachment:scroll;
+}
+
+#navbar {
+
+    background-color: #142850;
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    
-    }
-    #navbar-list{
+
+}
+
+#navbar-list {
     list-style: none;
-    }
-    #navbar-item{
-        display: inline-block;
-        height: 50px;
-        width: 8rem;
-       line-height: 50px;
-       text-align: center;
-       transition: 0.3s;
-    }
-    #navbar-item:hover{
-        background-color: #27496d;
-        transition: 0.3s;
-    }
-    #navbar-link{ 
-        color: #eeeeee;
+}
+
+#navbar-item {
+    display: inline-block;
+    height: 50px;
+    width: 8rem;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#navbar-item:hover {
+    background-color: #27496d;
+    transition: 0.3s;
+}
+
+#navbar-link {
+    color: #eeeeee;
+    display: block;
+
+}
+
+#navbar-link:hover {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+
+
+    color: red;
+}
+
+#join {
+
+    color: white
+}
+
+button {
+    background-color: #245FC1;
+}
+
+#QSM {
+    background-color: #245FC1;
+}
+
+#FOOT {
+    font-family: arial;
+
+}
+
+#h1 {
+    background-color: #245FC1;
+}
+
+#img {
+    width: 25%;
+}
+.top {
+    margin: 10px;
+}
+.top .clash {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.top .welcome {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: fit-content;
+    background-color: #2e7dda;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.fights {
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.copyright {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media (max-width:650px) {
+    #navbar-item {
         display: block;
-       
-            }
-        
-        #navbar-link:hover{
-        color: white;
-        
-        }
-    a{ text-decoration:none ;
-    
-    
-    color:red;
+        text-align: center;
+        width: 100%;
     }
-    
-    #join{
-    
-    color:white}
-    
-    button{
-    background-color:#245FC1;
+
+    #img {
+        width: 5%;
     }
-    #QSM{ background-color:#245FC1;
-    }
-    #FOOT{font-family:arial;
-    
-    }
-    #h1{background-color:#245FC1
-        ;}
-    #img{
-        width: 25%;
-    }
-    
-    @media (max-width:650px) {
-        #navbar-item{
-            display: block;
-            text-align: center;
-            width: 100%;
-        }
-        #img{
-            width: 5%;
-        }
-    }
+}
